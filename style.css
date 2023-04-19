@@ -1,0 +1,43 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #810000 ;
+}
+h1{
+font-family: 'Roboto', sans-serif;
+color: white;
+font-size: 45px;
+}
+.search{
+    display: flex;
+}
+#recherche{
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+img{
+    height: 600px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
